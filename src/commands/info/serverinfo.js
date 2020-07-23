@@ -2,6 +2,8 @@ const Command = require('../Command.js');
 const { MessageEmbed } = require('discord.js');
 const moment = require('moment');
 const region = {
+  'europe': 'Europe :flag_eu:',
+  'india': 'India :flag_in:',
   'us-central': 'US Central :flag_us:',
   'us-east': 'US East :flag_us:',
   'us-south': 'US South :flag_us:',
@@ -17,6 +19,7 @@ const region = {
   'sydney': 'Sydney :flag_au:',
   'southafrica': 'South Africa :flag_za:'
 };
+
 const verificationLevels = {
   NONE: 'None',
   LOW: 'Low',
